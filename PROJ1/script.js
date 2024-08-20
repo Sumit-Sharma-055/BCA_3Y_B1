@@ -3,10 +3,12 @@ let student = {
     name: "Sumit",
     age: 20,
     isWorking: false,
+    src:""
 }
-
-let info = '
+let {id, name, age, isWorking, src} = student
+let info = `
     <h1> Welcome</h1>
-'
+    <img src=${src}>
+`
 
 document.write(info)
